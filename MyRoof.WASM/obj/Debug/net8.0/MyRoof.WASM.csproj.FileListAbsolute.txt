@@ -1,0 +1,7 @@
+D:\MyRoof\MyRoof.WASM\obj\Debug\net8.0\MyRoof.WASM.csproj.AssemblyReference.cache
+D:\MyRoof\MyRoof.WASM\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\MyRoof\MyRoof.WASM\obj\Debug\net8.0\MyRoof.WASM.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRoof\MyRoof.WASM\obj\Debug\net8.0\MyRoof.WASM.AssemblyInfoInputs.cache
+D:\MyRoof\MyRoof.WASM\obj\Debug\net8.0\MyRoof.WASM.AssemblyInfo.cs
+D:\MyRoof\MyRoof.WASM\obj\Debug\net8.0\MyRoof.WASM.csproj.CoreCompileInputs.cache
+D:\MyRoof\MyRoof.WASM\obj\Debug\net8.0\MyRoof.WASM.MvcApplicationPartsAssemblyInfo.cache
