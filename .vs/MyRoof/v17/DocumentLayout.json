@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\MyRoof\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,15 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Service\\CartService.cs",
+              "RelativeDocumentMoniker": "MyRoof.WASM\\Service\\CartService.cs",
+              "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Service\\CartService.cs",
+              "RelativeToolTip": "MyRoof.WASM\\Service\\CartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T18:01:36.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CartItems.cs",
               "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Models\\CartItems.cs",
               "RelativeDocumentMoniker": "MyRoof.WASM\\Models\\CartItems.cs",
               "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Models\\CartItems.cs",
               "RelativeToolTip": "MyRoof.WASM\\Models\\CartItems.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:54:48.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:54:48.035Z"
             },
             {
               "$type": "Document",
@@ -57,14 +69,13 @@
               "RelativeDocumentMoniker": "MyRoof.WASM\\Models\\Product.cs",
               "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Models\\Product.cs",
               "RelativeToolTip": "MyRoof.WASM\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:05:46.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:05:46.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Cart.cs",
               "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "MyRoof.WASM\\Models\\Cart.cs",
@@ -72,8 +83,7 @@
               "RelativeToolTip": "MyRoof.WASM\\Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:25:04.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:25:04.12Z"
             },
             {
               "$type": "Document",
@@ -85,8 +95,7 @@
               "RelativeToolTip": "Data\\SeedData.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAqwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:12:46.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:12:46.569Z"
             },
             {
               "$type": "Document",
@@ -98,21 +107,7 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:09:10.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Service\\CartService.cs",
-              "RelativeDocumentMoniker": "MyRoof.WASM\\Service\\CartService.cs",
-              "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Service\\CartService.cs",
-              "RelativeToolTip": "MyRoof.WASM\\Service\\CartService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:01:36.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:09:10.482Z"
             }
           ]
         }
