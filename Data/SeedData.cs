@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Core.Models;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using MyRoof.WASM.Models;
 
 namespace Data
 {
@@ -23,7 +23,7 @@ namespace Data
                       Id = Guid.NewGuid(),
                       Name = "Колпак на столб забора. RAL 7024",
                       Price = 2500,
-                      Img = new List<string> {"/pics/Kolpak1.jpg"},
+                      ImgUrl = new List<string> {"/pics/Kolpak1.jpg"},
                       Description = "Колпак для забора - это не только стильный декоративный элемент, но и функциональное решение для защиты вашего забора"
                   },
                    new Product
@@ -31,7 +31,7 @@ namespace Data
                        Id = Guid.NewGuid(),
                        Name = "Колпак на столб забор. RAL 7024m",
                        Price = 2500,
-                       Img = new List<string> { "/pics/Kolpak1.jpg" },
+                       ImgUrl = new List<string> { "/pics/Kolpak1.jpg" },
                        Description = "Колпак для забора - это не только стильный декоративный элемент, но и функциональное решение для защиты вашего забора"
                    },
                     new Product
@@ -39,7 +39,7 @@ namespace Data
                         Id = Guid.NewGuid(),
                         Name = "Колпак на столб забора. RAL 8017",
                         Price = 2500,
-                        Img = new List<string> { "/pics/Kolpak1.jpg" },
+                        ImgUrl = new List<string> { "/pics/Kolpak1.jpg" },
                         Description = "Колпак для забора - это не только стильный декоративный элемент, но и функциональное решение для защиты вашего забора"
                     },
                      new Product
@@ -47,7 +47,7 @@ namespace Data
                          Id = Guid.NewGuid(),
                          Name = "Колпак на столб забора. RAL 9005",
                          Price = 2800,
-                         Img = new List<string> { "/pics/Kolpak1.jpg" },
+                         ImgUrl = new List<string> { "/pics/Kolpak1.jpg" },
                          Description = "Колпак для забора - это не только стильный декоративный элемент, но и функциональное решение для защиты вашего забора"
                      },
                       new Product
@@ -55,7 +55,7 @@ namespace Data
                           Id = Guid.NewGuid(),
                           Name = "Колпак на столб забора. RAL 8017",
                           Price = 2800,
-                          Img = new List<string> { "/pics/Kolpak1.jpg" },
+                          ImgUrl = new List<string> { "/pics/Kolpak1.jpg" },
                           Description = "Колпак для забора - это не только стильный декоративный элемент, но и функциональное решение для защиты вашего забора"
 
                       },
@@ -64,14 +64,12 @@ namespace Data
                            Id = Guid.NewGuid(),
                            Name = "Колпак на столб забора. Ral 9005",
                            Price = 2800,
-                           Img = new List<string> { "/pics/Kolpak1.jpg" },
+                           ImgUrl = new List<string> { "/pics/Kolpak1.jpg" },
                            Description = "Колпак для забора - это не только стильный декоративный элемент, но и функциональное решение для защиты вашего забора"
 
                        });
 
                 context.SaveChanges();
-
-            
 
 
             }

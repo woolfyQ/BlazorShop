@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using MyRoof.WASM.Models;
+﻿using Core.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Data
 {

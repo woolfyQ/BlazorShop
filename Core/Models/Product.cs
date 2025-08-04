@@ -1,4 +1,4 @@
-﻿namespace MyRoof.WASM.Models
+﻿namespace Core.Models
 {
     public class Product
     {

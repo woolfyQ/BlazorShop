@@ -28,16 +28,28 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MyRoof/MyRoof.WASM/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[D:/MyRoof/MyRoof.WASM/Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MyRoof/MyRoof.WASM/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[D:/MyRoof/MyRoof.WASM/Pages/Catalog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0YWxvZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MyRoof/MyRoof.WASM/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[D:/MyRoof/MyRoof.WASM/Pages/Contacts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyRoof/MyRoof.WASM/Pages/LowPriorityPages/Delivery.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG93UHJpb3JpdHlQYWdlc1xEZWxpdmVyeS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyRoof/MyRoof.WASM/Pages/LowPriorityPages/Oferta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG93UHJpb3JpdHlQYWdlc1xPZmVydGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyRoof/MyRoof.WASM/Pages/LowPriorityPages/Policy.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG93UHJpb3JpdHlQYWdlc1xQb2xpY3kucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MyRoof/MyRoof.WASM/_Imports.razor]

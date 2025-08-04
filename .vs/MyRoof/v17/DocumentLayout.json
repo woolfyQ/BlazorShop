@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\MyRoof\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\pages\\lowprioritypages\\policy.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\pages\\lowprioritypages\\policy.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\pages\\lowprioritypages\\delivery.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\pages\\lowprioritypages\\delivery.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\pages\\lowprioritypages\\oferta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\pages\\lowprioritypages\\oferta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|d:\\myroof\\myroof.api\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|solutionrelative:myroof.api\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|d:\\myroof\\myroof.api\\controller\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|solutionrelative:myroof.api\\controller\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|d:\\myroof\\myroof.api\\controller\\cdekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|solutionrelative:myroof.api\\controller\\cdekcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD53F378-A686-4579-B7FC-D852E07EC093}|Data\\Data.csproj|d:\\myroof\\data\\services\\cdekapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD53F378-A686-4579-B7FC-D852E07EC093}|Data\\Data.csproj|solutionrelative:data\\services\\cdekapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|d:\\myroof\\core\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|solutionrelative:core\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|d:\\myroof\\core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|solutionrelative:core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\service\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD53F378-A686-4579-B7FC-D852E07EC093}|Data\\Data.csproj|d:\\myroof\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +49,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{BD53F378-A686-4579-B7FC-D852E07EC093}|Data\\Data.csproj|d:\\myroof\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD53F378-A686-4579-B7FC-D852E07EC093}|Data\\Data.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|d:\\myroof\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|solutionrelative:core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|d:\\myroof\\core\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|solutionrelative:core\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|d:\\myroof\\core\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2F6840-E8DF-4243-A117-A6DFCFBD77F1}|Core\\Core.csproj|solutionrelative:core\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD53F378-A686-4579-B7FC-D852E07EC093}|Data\\Data.csproj|d:\\myroof\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD53F378-A686-4579-B7FC-D852E07EC093}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|d:\\myroof\\myroof.wasm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,75 +83,223 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Policy.razor",
+              "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Pages\\LowPriorityPages\\Policy.razor",
+              "RelativeDocumentMoniker": "MyRoof.WASM\\Pages\\LowPriorityPages\\Policy.razor",
+              "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Pages\\LowPriorityPages\\Policy.razor",
+              "RelativeToolTip": "MyRoof.WASM\\Pages\\LowPriorityPages\\Policy.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T17:49:44.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delivery.razor",
+              "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Pages\\LowPriorityPages\\Delivery.razor",
+              "RelativeDocumentMoniker": "MyRoof.WASM\\Pages\\LowPriorityPages\\Delivery.razor",
+              "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Pages\\LowPriorityPages\\Delivery.razor",
+              "RelativeToolTip": "MyRoof.WASM\\Pages\\LowPriorityPages\\Delivery.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T17:49:27.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Oferta.razor",
+              "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Pages\\LowPriorityPages\\Oferta.razor",
+              "RelativeDocumentMoniker": "MyRoof.WASM\\Pages\\LowPriorityPages\\Oferta.razor",
+              "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Pages\\LowPriorityPages\\Oferta.razor",
+              "RelativeToolTip": "MyRoof.WASM\\Pages\\LowPriorityPages\\Oferta.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T17:49:09.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CdekController.cs",
+              "DocumentMoniker": "D:\\MyRoof\\MyRoof.Api\\Controller\\CdekController.cs",
+              "RelativeDocumentMoniker": "MyRoof.Api\\Controller\\CdekController.cs",
+              "ToolTip": "D:\\MyRoof\\MyRoof.Api\\Controller\\CdekController.cs",
+              "RelativeToolTip": "MyRoof.Api\\Controller\\CdekController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:46:51.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\MyRoof\\MyRoof.Api\\Controller\\OrderController.cs",
+              "RelativeDocumentMoniker": "MyRoof.Api\\Controller\\OrderController.cs",
+              "ToolTip": "D:\\MyRoof\\MyRoof.Api\\Controller\\OrderController.cs",
+              "RelativeToolTip": "MyRoof.Api\\Controller\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:46:31.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\MyRoof\\MyRoof.Api\\Controller\\ProductController.cs",
+              "RelativeDocumentMoniker": "MyRoof.Api\\Controller\\ProductController.cs",
+              "ToolTip": "D:\\MyRoof\\MyRoof.Api\\Controller\\ProductController.cs",
+              "RelativeToolTip": "MyRoof.Api\\Controller\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:46:21.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CdekApiService.cs",
+              "DocumentMoniker": "D:\\MyRoof\\Data\\Services\\CdekApiService.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\CdekApiService.cs",
+              "ToolTip": "D:\\MyRoof\\Data\\Services\\CdekApiService.cs",
+              "RelativeToolTip": "Data\\Services\\CdekApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:44:42.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\MyRoof\\Core\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\OrderService.cs",
+              "ToolTip": "D:\\MyRoof\\Core\\Services\\OrderService.cs",
+              "RelativeToolTip": "Core\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:44:19.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\MyRoof\\Core\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Order.cs",
+              "ToolTip": "D:\\MyRoof\\Core\\Models\\Order.cs",
+              "RelativeToolTip": "Core\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:43:47.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\MyRoof\\Core\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Product.cs",
+              "ToolTip": "D:\\MyRoof\\Core\\Models\\Product.cs",
+              "RelativeToolTip": "Core\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:42:56.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartItems.cs",
+              "DocumentMoniker": "D:\\MyRoof\\Core\\Models\\CartItems.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\CartItems.cs",
+              "ToolTip": "D:\\MyRoof\\Core\\Models\\CartItems.cs",
+              "RelativeToolTip": "Core\\Models\\CartItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:42:51.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\MyRoof\\Core\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Cart.cs",
+              "ToolTip": "D:\\MyRoof\\Core\\Models\\Cart.cs",
+              "RelativeToolTip": "Core\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:42:41.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Data",
+              "DocumentMoniker": "D:\\MyRoof\\Data\\Data.csproj",
+              "RelativeDocumentMoniker": "Data\\Data.csproj",
+              "ToolTip": "D:\\MyRoof\\Data\\Data.csproj",
+              "RelativeToolTip": "Data\\Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-04T17:41:36.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Program.cs",
+              "RelativeDocumentMoniker": "MyRoof.WASM\\Program.cs",
+              "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Program.cs",
+              "RelativeToolTip": "MyRoof.WASM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:26:44.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CartService.cs",
               "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Service\\CartService.cs",
               "RelativeDocumentMoniker": "MyRoof.WASM\\Service\\CartService.cs",
               "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Service\\CartService.cs",
               "RelativeToolTip": "MyRoof.WASM\\Service\\CartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-14T18:01:36.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartItems.cs",
-              "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Models\\CartItems.cs",
-              "RelativeDocumentMoniker": "MyRoof.WASM\\Models\\CartItems.cs",
-              "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Models\\CartItems.cs",
-              "RelativeToolTip": "MyRoof.WASM\\Models\\CartItems.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:54:48.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "MyRoof.WASM\\Models\\Product.cs",
-              "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Models\\Product.cs",
-              "RelativeToolTip": "MyRoof.WASM\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:05:46.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\MyRoof\\MyRoof.WASM\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "MyRoof.WASM\\Models\\Cart.cs",
-              "ToolTip": "D:\\MyRoof\\MyRoof.WASM\\Models\\Cart.cs",
-              "RelativeToolTip": "MyRoof.WASM\\Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:25:04.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "SeedData.cs",
               "DocumentMoniker": "D:\\MyRoof\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Data\\SeedData.cs",
               "ToolTip": "D:\\MyRoof\\Data\\SeedData.cs",
               "RelativeToolTip": "Data\\SeedData.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:12:46.569Z"
+              "WhenOpened": "2025-07-14T18:12:46.569Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\MyRoof\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\MyRoof\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:09:10.482Z"
+              "WhenOpened": "2025-07-14T18:09:10.482Z",
+              "EditorCaption": ""
             }
           ]
         }
