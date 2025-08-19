@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Data.Services
+﻿namespace Data.Services
 {
-    internal class CdekApiService
+    public class CdekApiService
     {
+
+
+
+
     }
 }

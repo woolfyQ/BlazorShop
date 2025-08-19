@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyRoof\\Data\\Data.csproj": {}
+    "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Data\\Data.csproj": {}
   },
   "projects": {
-    "D:\\MyRoof\\Core\\Core.csproj": {
+    "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyRoof\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\MyRoof\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\PC_Work\\.nuget\\packages\\",
-        "outputPath": "D:\\MyRoof\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Volko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC_Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Volko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyRoof\\Data\\Data.csproj": {
+    "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyRoof\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\MyRoof\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\PC_Work\\.nuget\\packages\\",
-        "outputPath": "D:\\MyRoof\\Data\\obj\\",
+        "projectPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Volko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC_Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Volko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,11 +97,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\MyRoof\\Core\\Core.csproj": {
-                "projectPath": "D:\\MyRoof\\Core\\Core.csproj"
+              "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj"
               },
-              "D:\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj": {
-                "projectPath": "D:\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj"
+              "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj": {
+                "projectPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj"
               }
             }
           }
@@ -116,7 +116,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -147,24 +147,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj": {
+    "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj",
+        "projectUniqueName": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj",
         "projectName": "MyRoof.WASM",
-        "projectPath": "D:\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj",
-        "packagesPath": "C:\\Users\\PC_Work\\.nuget\\packages\\",
-        "outputPath": "D:\\MyRoof\\MyRoof.WASM\\obj\\",
+        "projectPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj",
+        "packagesPath": "C:\\Users\\Volko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC_Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Volko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,7 +178,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -191,7 +195,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -213,13 +217,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.18, )",
+              "version": "[8.0.15, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.7, )",
+              "version": "[9.0.4, )",
               "autoReferenced": true
             }
           },
@@ -237,7 +241,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.18, 8.0.18]"
+              "version": "[8.0.15, 8.0.15]"
             }
           ],
           "frameworkReferences": {
@@ -245,7 +249,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MyRoof.Api")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MyRoof.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c3dc52e0237a93167e7a39555515621c07cdd7c")]
-[assembly: System.Reflection.AssemblyProductAttribute("MyRoof.Api")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MyRoof.Api")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41da67c5a4ecfb6da135ec01fba61c186bf63299")]
+[assembly: System.Reflection.AssemblyProductAttribute("MyRoof.API")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MyRoof.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

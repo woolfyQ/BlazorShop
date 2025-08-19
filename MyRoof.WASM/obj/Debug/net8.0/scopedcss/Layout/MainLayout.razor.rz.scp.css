@@ -1,0 +1,9 @@
+
+.home-layout .content[b-ebxepauq6o] {
+    min-height: auto; /* ��������� ���������� ������ */
+}
+
+.content[b-ebxepauq6o] {
+    min-height: 100vh;
+    padding: 0px;
+}

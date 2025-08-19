@@ -1,5 +1,5 @@
 ﻿using Blazored.LocalStorage;
-using MyRoof.WASM.Models;
+using Core.Models;
 
 namespace MyRoof.WASM.Service
 {

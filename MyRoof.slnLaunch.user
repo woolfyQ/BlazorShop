@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "MyRoof.WASM\\MyRoof.WASM.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MyRoof.Api\\MyRoof.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

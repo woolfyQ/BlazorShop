@@ -1,57 +1,38 @@
-﻿@page "/weather"
-@inject HttpClient Http
+﻿@page "/Contacts"
 
-<PageTitle>Weather</PageTitle>
+<PageTitle>Contacts</PageTitle>
 
-<h1>Weather</h1>
+<section class="contacts">
+    <h2>Свяжитесь с нами</h2>
+    <p>Мы всегда рады помочь вам с любыми вопросами. Вы можете связаться с нами по телефону или через форму ниже.</p>
 
-<p>This component demonstrates fetching data from the server.</p>
+    <div class="contact-info">
+        <div class="contact-item">
+            <h3>Адрес</h3>
+            <p>Россия, Смоленск, ул. Тульский переулок, д. 9</p>
+        </div>
+        <div class="contact-item">
+            <h3>Телефон</h3>
+            <p><a href="tel:+71234567890">+7 (123) 456-78-90</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>Email</h3>
+            <p><a href="mailto:info@myroof.ru">info@myroof.ru</a></p>
+        </div>
+    </div>
 
-@if (forecasts == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var forecast in forecasts)
-            {
-                <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+    <form class="contact-form">
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" name="name" required>
 
-@code {
-    private WeatherForecast[]? forecasts;
+        <label for="email">Ваш Email</label>
+        <input type="email" id="email" name="email" required>
 
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
-    }
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
 
-    public class WeatherForecast
-    {
-        public DateOnly Date { get; set; }
+        <button type="submit">Отправить сообщение</button>
+    </form>
 
-        public int TemperatureC { get; set; }
-
-        public string? Summary { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-    }
-}
+    <p class="notification"></p>
+</section>

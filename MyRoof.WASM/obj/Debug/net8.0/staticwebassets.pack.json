@@ -1,0 +1,177 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyRoof.WASM.styles.css",
+      "PackagePath": "staticwebassets\\MyRoof.WASM.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Fonts\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\7024(1).jpg",
+      "PackagePath": "staticwebassets\\Pics\\7024(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\7024(2).jpg",
+      "PackagePath": "staticwebassets\\Pics\\7024(2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\7024_grafit_obsh.jpg",
+      "PackagePath": "staticwebassets\\Pics\\7024_grafit_obsh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\7024_s_metall_vstavka.jpg",
+      "PackagePath": "staticwebassets\\Pics\\7024_s_metall_vstavka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\7024new(1).jpg",
+      "PackagePath": "staticwebassets\\Pics\\7024new(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\7024new(2).jpg",
+      "PackagePath": "staticwebassets\\Pics\\7024new(2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\8017(1).jpg",
+      "PackagePath": "staticwebassets\\Pics\\8017(1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\8017.jpg",
+      "PackagePath": "staticwebassets\\Pics\\8017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\8017_svethy.jpg",
+      "PackagePath": "staticwebassets\\Pics\\8017_svethy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\8017_ugol.jpg",
+      "PackagePath": "staticwebassets\\Pics\\8017_ugol.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\8017new(2).jpg",
+      "PackagePath": "staticwebassets\\Pics\\8017new(2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\8017new(3).jpg",
+      "PackagePath": "staticwebassets\\Pics\\8017new(3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\9005(2).jpg",
+      "PackagePath": "staticwebassets\\Pics\\9005(2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\9005(3).jpg",
+      "PackagePath": "staticwebassets\\Pics\\9005(3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\9005(4).jpg",
+      "PackagePath": "staticwebassets\\Pics\\9005(4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Dimka.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Dimka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\FaceKolp.jpg",
+      "PackagePath": "staticwebassets\\Pics\\FaceKolp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Kolpak1.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Kolpak1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Kolpak2.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Kolpak2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Kolpak3.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Kolpak3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Kolpak4.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Kolpak4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Kolpak5.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Kolpak5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Kolpak6.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Kolpak6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\RAL8017_obsh_vid.jpg",
+      "PackagePath": "staticwebassets\\Pics\\RAL8017_obsh_vid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Ral7024_mat_ugol.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ral7024_mat_ugol.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Ral7024_ugol_Vstavka.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ral7024_ugol_Vstavka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\Ral9005.jpg",
+      "PackagePath": "staticwebassets\\Pics\\Ral9005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\ral7024_matoviy.jpg",
+      "PackagePath": "staticwebassets\\Pics\\ral7024_matoviy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\ral7024_sboky_vstavka.jpg",
+      "PackagePath": "staticwebassets\\Pics\\ral7024_sboky_vstavka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\Pics\\ral9005_ugol.jpg",
+      "PackagePath": "staticwebassets\\Pics\\ral9005_ugol.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyRoof.WASM.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyRoof.WASM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MyRoof.WASM.props",
+      "PackagePath": "build\\MyRoof.WASM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MyRoof.WASM.props",
+      "PackagePath": "buildMultiTargeting\\MyRoof.WASM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MyRoof.WASM.props",
+      "PackagePath": "buildTransitive\\MyRoof.WASM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,18 +1,57 @@
-﻿@page "/counter"
+﻿@page "/Cart"
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Корзина</PageTitle>
 
-<h1>Counter</h1>
+<div class="container my-5">
 
-<p role="status">Current count: @currentCount</p>
+    <!-- Если корзина пустая -->
+    <div class="text-center">
+        <p class="lead">Ваша корзина пуста. Добавьте товары в корзину, чтобы продолжить.</p>
+        <a href="/Catalog" class="btn btn-lg btn-outline-secondary">Перейти в каталог</a>
+    </div>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    <!-- Если есть товары -->
+    <h3 class="mb-4">Содержимое вашей корзины</h3>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm hover-zoom" style="width: 100%">
+                <img src="/images/product1.jpg" class="card-img-top" alt="Товар 1" />
+                <div class="card-body">
+                    <h5 class="card-title">Товар 1</h5>
+                    <p class="card-text">Цена: 1 000 ₽</p>
+                    <p class="card-text">Количество: 2</p>
+                    <div class="d-flex justify-content-between">
+                        <button class="btn btn-outline-danger">Удалить</button>
+                        <button class="btn btn-outline-success">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-@code {
-    private int currentCount = 0;
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm hover-zoom" style="width: 100%">
+                <img src="/images/product2.jpg" class="card-img-top" alt="Товар 2" />
+                <div class="card-body">
+                    <h5 class="card-title">Товар 2</h5>
+                    <p class="card-text">Цена: 2 500 ₽</p>
+                    <p class="card-text">Количество: 1</p>
+                    <div class="d-flex justify-content-between">
+                        <button class="btn btn-outline-danger">Удалить</button>
+                        <button class="btn btn-outline-success">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
-}
+    <!-- Итог -->
+    <div class="mt-4 text-center">
+        <h4>Общая стоимость: 4 500 ₽</h4>
+        <a href="/OrderProcessing" class="btn btn-lg btn-outline-primary mt-3">Перейти к оформлению заказа</a>
+    </div>
+
+    <!-- Сообщение об ошибке (статическая заглушка) -->
+    <div class="alert alert-danger mt-4">
+        <strong>Ошибка:</strong> Не удалось загрузить корзину.
+    </div>
+</div>

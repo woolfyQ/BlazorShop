@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj": {}
+    "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj": {}
   },
   "projects": {
-    "D:\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj": {
+    "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj",
-        "projectName": "MyRoof.WASM",
-        "projectPath": "D:\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj",
-        "packagesPath": "C:\\Users\\PC_Work\\.nuget\\packages\\",
-        "outputPath": "D:\\MyRoof\\MyRoof.WASM\\obj\\",
+        "projectUniqueName": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Volko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC_Work\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Volko\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,76 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj",
+        "projectName": "MyRoof.WASM",
+        "projectPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\MyRoof.WASM.csproj",
+        "packagesPath": "C:\\Users\\Volko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\MyRoof.WASM\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Volko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Volko\\OneDrive\\Рабочий стол\\myroof\\MyRoof\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -66,13 +135,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.18, )",
+              "version": "[8.0.15, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.7, )",
+              "version": "[9.0.4, )",
               "autoReferenced": true
             }
           },
@@ -90,7 +159,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.18, 8.0.18]"
+              "version": "[8.0.15, 8.0.15]"
             }
           ],
           "frameworkReferences": {
@@ -98,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

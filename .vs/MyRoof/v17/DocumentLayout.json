@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD53F378-A686-4579-B7FC-D852E07EC093}|Data\\Data.csproj|c:\\users\\volko\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\myroof\\data\\services\\cdekapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD53F378-A686-4579-B7FC-D852E07EC093}|Data\\Data.csproj|solutionrelative:data\\services\\cdekapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|c:\\users\\volko\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\myroof\\myroof.wasm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|c:\\users\\volko\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\myroof\\myroof.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|solutionrelative:myroof.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|c:\\users\\volko\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\myroof\\myroof.wasm\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBB18F23-E10C-4B49-AE1D-81D81D650A7C}|MyRoof.WASM\\MyRoof.WASM.csproj|solutionrelative:myroof.wasm\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|c:\\users\\volko\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\myroof\\myroof.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58CBEBB-779B-4752-B5E2-F01901254CC7}|MyRoof.Api\\MyRoof.Api.csproj|solutionrelative:myroof.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CdekApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\Data\\Services\\CdekApiService.cs",
+              "RelativeDocumentMoniker": "Data\\Services\\CdekApiService.cs",
+              "ToolTip": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\Data\\Services\\CdekApiService.cs",
+              "RelativeToolTip": "Data\\Services\\CdekApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T14:05:14.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\MyRoof.WASM\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyRoof.WASM\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\MyRoof.WASM\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyRoof.WASM\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-18T13:41:10.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\MyRoof.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyRoof.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\MyRoof.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyRoof.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-18T13:41:02.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\MyRoof.Api\\Program.cs",
+              "RelativeDocumentMoniker": "MyRoof.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\MyRoof.Api\\Program.cs",
+              "RelativeToolTip": "MyRoof.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T13:39:28.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\MyRoof.WASM\\Program.cs",
+              "RelativeDocumentMoniker": "MyRoof.WASM\\Program.cs",
+              "ToolTip": "C:\\Users\\Volko\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\myroof\\MyRoof\\MyRoof.WASM\\Program.cs",
+              "RelativeToolTip": "MyRoof.WASM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T13:39:27.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
