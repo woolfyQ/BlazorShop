@@ -1,0 +1,127 @@
+@page "/ProductCard/{ProductId:guid}"
+@using Core.Models
+@using Core.Services
+@using Core.InterFaces
+@inject IProductService ProductService
+@inject NavigationManager Navigation
+
+<PageTitle>@(Product?.Name ?? "Товар")</PageTitle>
+
+<div class="product-detail">
+    @if (Product != null)
+    {
+        <div class="product-main">
+            <div class="image-section">
+                @if (Product.ImgUrl != null && Product.ImgUrl.Any())
+                {
+                    <div class="main-image">
+                        <img src="@Product.ImgUrl[0]" alt="@Product.Name" />
+                    </div>
+                    @if (Product.ImgUrl.Count > 1)
+                    {
+                        <div class="thumbnail-images">
+                            @foreach (var imgUrl in Product.ImgUrl)
+                            {
+                                <img src="@imgUrl" alt="@Product.Name" class="thumbnail" />
+                            }
+                        </div>
+                    }
+                }
+            </div>
+
+            <div class="product-content">
+                <h1 class="product-title">@Product.Name</h1>
+                <p class="product-price">@Product.Price.ToString("C", new System.Globalization.CultureInfo("ru-RU"))</p>
+
+                <div class="product-actions">
+                    <div class="marketplace-links">
+                        <h3>Купить на маркетплейсе:</h3>
+                        <div class="marketplace-buttons">
+                            <a href="https://www.ozon.ru/search?text=@Uri.EscapeDataString(Product.Name)" 
+                               target="_blank" class="marketplace-btn ozon">
+                                <span>Ozon</span>
+                            </a>
+                            <a href="https://www.wildberries.ru/catalog/0/search.aspx?search=@Uri.EscapeDataString(Product.Name)" 
+                               target="_blank" class="marketplace-btn wildberries">
+                                <span>Wildberries</span>
+                            </a>
+                            <a href="https://market.yandex.ru/search?text=@Uri.EscapeDataString(Product.Name)" 
+                               target="_blank" class="marketplace-btn yandex">
+                                <span>Яндекс.Маркет</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-links">
+                        <h3>Связаться с нами:</h3>
+                        <div class="contact-buttons">
+                            <a href="https://t.me/TeamYourRoof_support" target="_blank" class="contact-btn telegram">
+                                <span>Telegram</span>
+                            </a>
+                            <a href="https://wa.me/71234567890?text=@Uri.EscapeDataString($"Здравствуйте! Интересует товар: {Product.Name}")" 
+                               target="_blank" class="contact-btn whatsapp">
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="mailto:TeamYourRoof@outlook.com?subject=@Uri.EscapeDataString($"Вопрос по товару: {Product.Name}")" 
+                               class="contact-btn email">
+                                <span>Email</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-description">
+                    <h2>Описание товара</h2>
+                    <p>@Product.Description</p>
+                    
+                    <h2>Преимущества колпака для дымохода</h2>
+                    <ul>
+                        <li>
+                            <strong>Защита от погоды:</strong>
+                            Колпак защищает дымоход от воздействия различных погодных условий, таких как дождь, снег, и ультрафиолетовые лучи, что помогает продлить срок службы дымохода.
+                        </li>
+                        <li>
+                            <strong>Предотвращение скопления влаги:</strong>
+                            Благодаря колпаку предотвращается скопление влаги внутри дымохода, что может привести к его разрушению и повреждению.
+                        </li>
+                        <li>
+                            <strong>Улучшение тяги:</strong>
+                            Правильно установленный колпак улучшает тягу дымохода, обеспечивая эффективное отведение продуктов сгорания.
+                        </li>
+                        <li>
+                            <strong>Завершенный вид:</strong>
+                            Добавляя завершенный и стильный вид вашему дому, колпак придает ему эстетическое совершенство, дополняя общий дизайн.
+                        </li>
+                        <li>
+                            <strong>Прочность и долговечность:</strong>
+                            Изготовленный из оцинкованной стали, колпак является долговечным решением, которое прослужит вам долгие годы.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="not-found">
+            <span>Товар не найден</span>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public Guid ProductId { get; set; }
+
+    private Product? Product { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Product = await ProductService.GetProductByIdAsync(ProductId);
+        
+        if (Product == null)
+        {
+            Navigation.NavigateTo("/Catalog");
+        }
+    }
+}

@@ -1,4 +1,7 @@
 ﻿@page "/Contacts"
+@using Core.Services
+@using System.ComponentModel.DataAnnotations
+@inject IEmailService EmailService
 
 <PageTitle>Contacts</PageTitle>
 
@@ -17,22 +20,114 @@
         </div>
         <div class="contact-item">
             <h3>Email</h3>
-            <p><a href="mailto:info@myroof.ru">info@myroof.ru</a></p>
+            <p><a href="mailto:TeamYourRoof@outlook.com">TeamYourRoof@outlook.com</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>Telegram</h3>
+            <p><a href="https://t.me/TeamYourRoof_support" target="_blank">TeamYourRoof_support</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/71234567890" target="_blank">+7 (123) 456-78-90</a></p>
         </div>
     </div>
 
-    <form class="contact-form">
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name" name="name" required>
+    <EditForm Model="@contactForm" OnValidSubmit="HandleSubmit">
+        <DataAnnotationsValidator />
+        
+        <div class="form-group">
+            <label for="name">Ваше имя *</label>
+            <InputText id="name" @bind-Value="contactForm.Name" class="form-control" />
+            <ValidationMessage For="@(() => contactForm.Name)" />
+        </div>
 
-        <label for="email">Ваш Email</label>
-        <input type="email" id="email" name="email" required>
+        <div class="form-group">
+            <label for="email">Ваш Email *</label>
+            <InputText id="email" @bind-Value="contactForm.Email" class="form-control" />
+            <ValidationMessage For="@(() => contactForm.Email)" />
+        </div>
 
-        <label for="message">Сообщение</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+        <div class="form-group">
+            <label for="message">Сообщение *</label>
+            <InputTextArea id="message" @bind-Value="contactForm.Message" rows="4" class="form-control" />
+            <ValidationMessage For="@(() => contactForm.Message)" />
+        </div>
 
-        <button type="submit">Отправить сообщение</button>
-    </form>
+        <button type="submit" class="submit-btn" disabled="@isSubmitting">
+            @if (isSubmitting)
+            {
+                <span>Отправка...</span>
+            }
+            else
+            {
+                <span>Отправить сообщение</span>
+            }
+        </button>
+    </EditForm>
 
-    <p class="notification"></p>
+    @if (!string.IsNullOrEmpty(notificationMessage))
+    {
+        <div class="notification @notificationType">
+            @notificationMessage
+        </div>
+    }
 </section>
+
+@code {
+    private ContactForm contactForm = new();
+    private bool isSubmitting = false;
+    private string notificationMessage = "";
+    private string notificationType = "";
+
+    private async Task HandleSubmit()
+    {
+        isSubmitting = true;
+        notificationMessage = "";
+        notificationType = "";
+
+        try
+        {
+            var success = await EmailService.SendContactFormAsync(
+                contactForm.Name, 
+                contactForm.Email, 
+                contactForm.Message
+            );
+
+            if (success)
+            {
+                notificationMessage = "Сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.";
+                notificationType = "success";
+                contactForm = new ContactForm(); // Очищаем форму
+            }
+            else
+            {
+                notificationMessage = "Произошла ошибка при отправке сообщения. Попробуйте позже или свяжитесь с нами по телефону.";
+                notificationType = "error";
+            }
+        }
+        catch (Exception ex)
+        {
+            notificationMessage = "Произошла ошибка при отправке сообщения. Попробуйте позже.";
+            notificationType = "error";
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+
+    public class ContactForm
+    {
+        [Required(ErrorMessage = "Имя обязательно для заполнения")]
+        [StringLength(100, ErrorMessage = "Имя не может быть длиннее 100 символов")]
+        public string Name { get; set; } = "";
+
+        [Required(ErrorMessage = "Email обязателен для заполнения")]
+        [EmailAddress(ErrorMessage = "Введите корректный email адрес")]
+        public string Email { get; set; } = "";
+
+        [Required(ErrorMessage = "Сообщение обязательно для заполнения")]
+        [StringLength(1000, ErrorMessage = "Сообщение не может быть длиннее 1000 символов")]
+        public string Message { get; set; } = "";
+    }
+}

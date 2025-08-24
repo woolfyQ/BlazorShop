@@ -1,4 +1,10 @@
 ﻿@page "/Catalog"
+@using Core.Models
+@using Core.Services
+@using Core.InterFaces
+@inject IProductService ProductService
+@inject NavigationManager Navigation
+
 
 <PageTitle>Catalog</PageTitle>
 
@@ -8,29 +14,46 @@
 </div>
 
 <section class="product-section">
-    <div class="product-grid">
-        <ul class="products-cards">
-            <li class="card">
-                <img src="/images/product1.jpg" alt="Товар 1" />
-                <div class="card-body">
-                    <span class="title">Товар 1</span>
-                    <span class="price">1000 ₽</span>
-                </div>
-            </li>
-            <li class="card">
-                <img src="/images/product2.jpg" alt="Товар 2" />
-                <div class="card-body">
-                    <span class="title">Товар 2</span>
-                    <span class="price">2500 ₽</span>
-                </div>
-            </li>
-            <li class="card">
-                <img src="/images/product3.jpg" alt="Товар 3" />
-                <div class="card-body">
-                    <span class="title">Товар 3</span>
-                    <span class="price">1500 ₽</span>
-                </div>
-            </li>
-        </ul>
-    </div>
+    @if (Products == null)
+    {
+        <div class="loading">
+            <p>Загрузка товаров...</p>
+        </div>
+    }
+    else
+    {
+        <div class="product-grid">
+            <ul class="products-cards">
+                @foreach (var product in Products)
+                {
+                    <li class="card" @onclick="() => NavigateToProduct(product.Id)">
+                        @if (product.ImgUrl != null && product.ImgUrl.Any())
+                        {
+                            <img src="@product.ImgUrl[0]" alt="@product.Name" />
+                        }
+                        <div class="card-body">
+                            <span class="title">@product.Name</span>
+                            <span class="price">@product.Price.ToString("C", new System.Globalization.CultureInfo("ru-RU"))</span>
+                            <p class="description">@product.Description</p>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
 </section>
+
+
+@code {
+    private List<Product>? Products { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Products = await ProductService.GetAllProductsAsync();
+    }
+
+    private void NavigateToProduct(Guid productId)
+    {
+        Navigation.NavigateTo($"/ProductCard/{productId}");
+    }
+}

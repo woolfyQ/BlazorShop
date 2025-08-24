@@ -1,6 +1,6 @@
-@MyRoof.Api_HostAddress = http://localhost:5005
+@MyRoof.API_HostAddress = http://localhost:5107
 
-GET {{MyRoof.Api_HostAddress}}/weatherforecast/
+GET {{MyRoof.API_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

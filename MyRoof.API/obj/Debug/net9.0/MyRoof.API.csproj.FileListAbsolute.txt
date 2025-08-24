@@ -1,0 +1,9 @@
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.API\obj\Debug\net9.0\MyRoof.API.csproj.AssemblyReference.cache
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.API\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.API\obj\Debug\net9.0\MyRoof.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.API\obj\Debug\net9.0\MyRoof.API.AssemblyInfoInputs.cache
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.API\obj\Debug\net9.0\MyRoof.API.AssemblyInfo.cs
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.API\obj\Debug\net9.0\MyRoof.API.csproj.CoreCompileInputs.cache
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.API\obj\Debug\net9.0\MyRoof.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.API\obj\Debug\net9.0\MyRoof.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.API\obj\Debug\net9.0\MyRoof.API.sourcelink.json
