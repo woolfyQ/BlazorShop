@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MyRoof.WASM",
   "resources": {
-    "hash": "sha256-P/YRqnTu8rWrVgx93nG+v1KqhjFMc3R7RJC7yGGF3I8=",
+    "hash": "sha256-USDSm1iuhgN3Lm6PEHRFxW1BVugeFxAxkP3wkDRNIAQ=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-1QpKPnxEuRCElzcp+e3MrovJeAJkuzqKmRQay/6Aa08="
     },
@@ -210,12 +210,12 @@
       "mscorlib.wasm": "sha256-BeLfFpg9iS3DkEdywsYY7sV6ML3knqkMaMq0JBEbWlw=",
       "netstandard.wasm": "sha256-VkjUtJ6DK5bFTc2JwwGHmQY3tBcNSC7zMSJXuiXcnJA=",
       "System.Private.CoreLib.wasm": "sha256-VIQEPUSb48N39LR+ncGDP5xU02xuRbyZU8MhMho26wQ=",
-      "Core.wasm": "sha256-NgRVn8PKF4lSezgqMvnUjQWkS4IPnHh3QQfYsk3urRs=",
-      "MyRoof.WASM.wasm": "sha256-wyYxQlq/TL2His5IBhqLLsDk4P628/yjDpYgewPAIe8="
+      "Core.wasm": "sha256-vFYhcBgUcuVjTNLZ6av/OW8G1WpgxQyNTrzcSJmfffk=",
+      "MyRoof.WASM.wasm": "sha256-bZYr8ai4ufNUPbKNHav48xhREkJAtWw/oHE2Yp/2B5o="
     },
     "pdb": {
-      "Core.pdb": "sha256-Sa8HgWJb5W+u1Bukex3IRWBIrR3sII1yL5BfTY14SjQ=",
-      "MyRoof.WASM.pdb": "sha256-tY1fJxkVaa+ycJYUW0xATupeCFN/w8ys6Kz/vbiTCU4="
+      "Core.pdb": "sha256-80MFS/lG9lN7b/sEE+086QSErtay7DWElMOOrhJnmzQ=",
+      "MyRoof.WASM.pdb": "sha256-4nCliKnff+9FDk+ullv0YpNgHDwGYKalC6/j0D5cYkE="
     }
   },
   "cacheBootResources": true,

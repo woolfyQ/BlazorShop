@@ -12,10 +12,11 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 
-builder.Services.AddScoped(sp =>
-    new HttpClient { BaseAddress = new Uri("https://localhost:7239/") });
-
 // Настраиваем HttpClient для API
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7239/") });
+var apiUrl = builder.HostEnvironment.IsDevelopment() 
+    ? "http://localhost:5107/" 
+    : "https://api.your-domain.com/";
+
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(apiUrl) });
 
 await builder.Build().RunAsync();

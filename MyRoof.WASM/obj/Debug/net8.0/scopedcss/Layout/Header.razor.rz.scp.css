@@ -68,9 +68,38 @@ footer[b-x45ij36bea] {
 
 .navbar-collapse[b-x45ij36bea] {
     justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-collapse.show[b-x45ij36bea] {
+    display: flex !important;
+}
+
+/* Стили для burger button */
+.navbar-toggler[b-x45ij36bea] {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.25rem 0.5rem;
+    background: transparent;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-toggler:focus[b-x45ij36bea] {
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.navbar-toggler:hover[b-x45ij36bea] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon[b-x45ij36bea] {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .navbar-brand[b-x45ij36bea] {
+    text-transform: none;
     font-weight: bold;
     font-size: 1.5rem;
     color: #fff;
@@ -143,11 +172,26 @@ footer .footer-links a[b-x45ij36bea] {
         flex-direction: column;
         align-items: center;
         gap: 0.5rem;
+        padding: 1rem 0;
     }
 
     .btn[b-x45ij36bea] {
         padding: 0.4rem 0.8rem;
         font-size: 0.9rem;
+    }
+    
+    .navbar-collapse[b-x45ij36bea] {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        margin-top: 0.5rem;
+        padding: 1rem;
+    }
+    
+    .d-flex[b-x45ij36bea] {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        margin-top: 1rem;
     }
 }
 
@@ -164,6 +208,15 @@ footer .footer-links a[b-x45ij36bea] {
 
     footer .footer-links a[b-x45ij36bea] {
         font-size: 0.9rem;
+    }
+    
+    .navbar-toggler[b-x45ij36bea] {
+        padding: 0.2rem 0.4rem;
+    }
+    
+    .navbar-toggler-icon[b-x45ij36bea] {
+        width: 1.2em;
+        height: 1.2em;
     }
 }
 

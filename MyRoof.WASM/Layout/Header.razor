@@ -6,7 +6,7 @@
 
 <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">MyRoof</a>
+        <a class="navbar-brand" href="/">YourRoof</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -97,8 +97,34 @@
 
 
 
-    @code {
-       
+@inject IJSRuntime JSRuntime
 
-
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("eval", @"
+                // Инициализация Bootstrap collapse для мобильного меню
+                document.addEventListener('DOMContentLoaded', function() {
+                    const navbarToggler = document.querySelector('.navbar-toggler');
+                    const navbarCollapse = document.querySelector('.navbar-collapse');
+                    
+                    if (navbarToggler && navbarCollapse) {
+                        navbarToggler.addEventListener('click', function() {
+                            navbarCollapse.classList.toggle('show');
+                        });
+                        
+                        // Закрытие меню при клике на ссылку
+                        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+                        navLinks.forEach(link => {
+                            link.addEventListener('click', function() {
+                                navbarCollapse.classList.remove('show');
+                            });
+                        });
+                    }
+                });
+            ");
+        }
     }
+}

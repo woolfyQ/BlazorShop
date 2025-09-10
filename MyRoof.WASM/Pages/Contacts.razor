@@ -1,9 +1,10 @@
 ﻿@page "/Contacts"
+@using Core.InterFaces
 @using Core.Services
 @using System.ComponentModel.DataAnnotations
-@inject IEmailService EmailService
+@inject IEmailService EmailService 
 
-<PageTitle>Contacts</PageTitle>
+<PageTitle>Контакты</PageTitle>
 
 <section class="contacts">
     <h2>Свяжитесь с нами</h2>
@@ -12,23 +13,23 @@
     <div class="contact-info">
         <div class="contact-item">
             <h3>Адрес</h3>
-            <p>Россия, Смоленск, ул. Тульский переулок, д. 9</p>
+            <p>Россия, Смоленск, ул. Тульский переулок, д. 9/5</p>
         </div>
         <div class="contact-item">
             <h3>Телефон</h3>
-            <p><a href="tel:+71234567890">+7 (123) 456-78-90</a></p>
+            <p><a href="tel:+7 965 763 51 62">+7 965 763 51 62</a></p>
         </div>
         <div class="contact-item">
             <h3>Email</h3>
-            <p><a href="mailto:TeamYourRoof@outlook.com">TeamYourRoof@outlook.com</a></p>
+            <p><a href="mailto:YourRoofTeam@ya.ru">YourRoofTeam@yandex.ru</a></p>
         </div>
         <div class="contact-item">
             <h3>Telegram</h3>
-            <p><a href="https://t.me/TeamYourRoof_support" target="_blank">TeamYourRoof_support</a></p>
+            <p><a href="https://t.me/YourRoofSupport" target="_blank">YourRoofSupport</a></p>
         </div>
         <div class="contact-item">
             <h3>WhatsApp</h3>
-            <p><a href="https://wa.me/71234567890" target="_blank">+7 (123) 456-78-90</a></p>
+            <p><a href="https://wa.me/79657635162" target="_blank">+7 965 763 51 62</a></p>
         </div>
     </div>
 
@@ -107,7 +108,9 @@
         }
         catch (Exception ex)
         {
-            notificationMessage = "Произошла ошибка при отправке сообщения. Попробуйте позже.";
+            Console.WriteLine($"Ошибка в форме: {ex.Message}");
+            Console.WriteLine($"Stack trace: {ex.StackTrace}");
+            notificationMessage = $"Произошла ошибка при отправке сообщения: {ex.Message}";
             notificationType = "error";
         }
         finally

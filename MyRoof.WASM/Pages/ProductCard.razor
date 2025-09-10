@@ -4,6 +4,7 @@
 @using Core.InterFaces
 @inject IProductService ProductService
 @inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
 
 <PageTitle>@(Product?.Name ?? "Товар")</PageTitle>
 
@@ -14,22 +15,41 @@
             <div class="image-section">
                 @if (Product.ImgUrl != null && Product.ImgUrl.Any())
                 {
-                    <div class="main-image">
-                        <img src="@Product.ImgUrl[0]" alt="@Product.Name" />
-                    </div>
-                    @if (Product.ImgUrl.Count > 1)
-                    {
-                        <div class="thumbnail-images">
-                            @foreach (var imgUrl in Product.ImgUrl)
+                    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Индикаторы -->
+                        <div class="carousel-indicators">
+                            @for (int i = 0; i < Product.ImgUrl.Count; i++)
                             {
-                                <img src="@imgUrl" alt="@Product.Name" class="thumbnail" />
+                                <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="@i" 
+                                        class="@(i == 0 ? "active" : "")" aria-label="Slide @(i+1)"></button>
                             }
                         </div>
-                    }
+                        
+                        <!-- Слайды -->
+                        <div class="carousel-inner">
+                            @for (int i = 0; i < Product.ImgUrl.Count; i++)
+                            {
+                                <div class="carousel-item @(i == 0 ? "active" : "")">
+                                    <img src="@Product.ImgUrl[i]" class="d-block w-100" alt="@Product.Name" 
+                                         onclick="openImageModal('@Product.ImgUrl[i]')" style="cursor: zoom-in;">
+                                </div>
+                            }
+                        </div>
+                        
+                        <!-- Кнопки навигации -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
                 }
             </div>
 
-            <div class="product-content">
+            <div class="product-info">
                 <h1 class="product-title">@Product.Name</h1>
                 <p class="product-price">@Product.Price.ToString("C", new System.Globalization.CultureInfo("ru-RU"))</p>
 
@@ -37,17 +57,9 @@
                     <div class="marketplace-links">
                         <h3>Купить на маркетплейсе:</h3>
                         <div class="marketplace-buttons">
-                            <a href="https://www.ozon.ru/search?text=@Uri.EscapeDataString(Product.Name)" 
+                            <a href="https://www.ozon.ru/seller/vasha-krysha-3247259/" 
                                target="_blank" class="marketplace-btn ozon">
                                 <span>Ozon</span>
-                            </a>
-                            <a href="https://www.wildberries.ru/catalog/0/search.aspx?search=@Uri.EscapeDataString(Product.Name)" 
-                               target="_blank" class="marketplace-btn wildberries">
-                                <span>Wildberries</span>
-                            </a>
-                            <a href="https://market.yandex.ru/search?text=@Uri.EscapeDataString(Product.Name)" 
-                               target="_blank" class="marketplace-btn yandex">
-                                <span>Яндекс.Маркет</span>
                             </a>
                         </div>
                     </div>
@@ -55,48 +67,80 @@
                     <div class="contact-links">
                         <h3>Связаться с нами:</h3>
                         <div class="contact-buttons">
-                            <a href="https://t.me/TeamYourRoof_support" target="_blank" class="contact-btn telegram">
+                            <a href="https://t.me/YourRoofSupport" target="_blank" class="contact-btn telegram">
                                 <span>Telegram</span>
                             </a>
-                            <a href="https://wa.me/71234567890?text=@Uri.EscapeDataString($"Здравствуйте! Интересует товар: {Product.Name}")" 
+                            <a href="https://wa.me/79657635162?text=@Uri.EscapeDataString($"Здравствуйте! Интересует товар: {Product.Name}")" 
                                target="_blank" class="contact-btn whatsapp">
                                 <span>WhatsApp</span>
-                            </a>
-                            <a href="mailto:TeamYourRoof@outlook.com?subject=@Uri.EscapeDataString($"Вопрос по товару: {Product.Name}")" 
-                               class="contact-btn email">
-                                <span>Email</span>
                             </a>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="product-description">
-                    <h2>Описание товара</h2>
-                    <p>@Product.Description</p>
-                    
-                    <h2>Преимущества колпака для дымохода</h2>
-                    <ul>
-                        <li>
-                            <strong>Защита от погоды:</strong>
-                            Колпак защищает дымоход от воздействия различных погодных условий, таких как дождь, снег, и ультрафиолетовые лучи, что помогает продлить срок службы дымохода.
-                        </li>
-                        <li>
-                            <strong>Предотвращение скопления влаги:</strong>
-                            Благодаря колпаку предотвращается скопление влаги внутри дымохода, что может привести к его разрушению и повреждению.
-                        </li>
-                        <li>
-                            <strong>Улучшение тяги:</strong>
-                            Правильно установленный колпак улучшает тягу дымохода, обеспечивая эффективное отведение продуктов сгорания.
-                        </li>
-                        <li>
-                            <strong>Завершенный вид:</strong>
-                            Добавляя завершенный и стильный вид вашему дому, колпак придает ему эстетическое совершенство, дополняя общий дизайн.
-                        </li>
-                        <li>
-                            <strong>Прочность и долговечность:</strong>
-                            Изготовленный из оцинкованной стали, колпак является долговечным решением, которое прослужит вам долгие годы.
-                        </li>
-                    </ul>
+        <div class="product-description">
+    <h2>Колпаки на столбы забора: надежная защита и элегантный внешний вид</h2>
+    <p>Металлические колпаки на столбы забора — это не просто декоративный элемент, а практичное решение для продления срока службы вашего ограждения. Изготовленные из высококачественной оцинкованной стали с полимерным покрытием, они обеспечивают комплексную защиту от разрушающих внешних факторов.</p>
+    
+    <h2>Ключевые преимущества наших колпаков на столбы забора</h2>
+    <ul>
+        <li>
+            <strong>Всепогодная защита конструкции</strong>
+            Наши колпаки надежно защищают верхнюю часть столбов от дождя, снега, града и ультрафиолетового излучения. Это предотвращает разрушение материала столба под воздействием атмосферных осадков и значительно продлевает срок службы всего забора.
+        </li>
+        <li>
+            <strong>Предотвращение коррозии и гниения</strong>
+            Благодаря полному закрытию торца столба, колпак исключает скопление влаги — основную причину коррозии металлических опор и гниения деревянных. Специальные дренажные каналы обеспечивают отвод воды даже при сильных ливнях.
+        </li>
+        <li>
+            <strong>Усиление эстетики ограждения</strong>
+            Колпаки придают забору законченный эстетичный вид, скрывая неприглядные торцы столбов. Доступные в различных цветах (RAL 7024, RAL 8017, RAL 9005), они сочетаются с любым дизайном экстерьера.
+        </li>
+        <li>
+            <strong>Повышенная долговечность и прочность</strong>
+            Изготовленные из оцинкованной стали, наши колпаки устойчивы к деформации, коррозии и выцветанию. Полимерное покрытие обеспечивает дополнительную защиту и сохраняет внешний вид на десятилетия.
+        </li>
+        <li>
+            <strong>Защита от птиц и насекомых</strong>
+            Конструкция колпаков предотвращает гнездование птиц и проникновение насекомых в полости столбов, что особенно актуально для полых металлических и бетонных опор.
+        </li>
+        <li>
+            <strong>Универсальность монтажа</strong>
+            Колпаки легко устанавливаются на различные типы столбов (деревянные, металлические, бетонные) без специального инструмента. Усиленные крепления обеспечивают надежную фиксацию даже при сильных ветрах.
+        </li>
+        <li>
+            <strong>Экономия на обслуживании</strong>
+            Установка колпаков сокращает затраты на ремонт и замену столбов, предотвращая их преждевременное разрушение. Это долгосрочная инвестиция в сохранность вашего ограждения.
+        </li>
+        <li>
+            <strong>Повышение стоимости недвижимости</strong>
+            Аккуратный внешний вид забора с декоративными колпаками повышает общую эстетику участка и может positively повлиять на стоимость вашей недвижимости.
+        </li>
+    </ul>
+    
+    <div>
+        <h2>Почему выбирают наши колпаки на заборные столбы?</h2>
+        <p>Как владельцы частных домов, так и профессиональные строители доверяют нашим колпакам для столбов забора благодаря их исключительному качеству и функциональности. Мы используем только сертифицированные материалы и современные технологии производства, что гарантирует безупречный результат на года.</p>
+        
+        <p>Наши металлические колпаки подходят для всех типов заборов: от классических деревянных и профнастильных до элитных кованых ограждений. Широкая цветовая гамма позволяет подобрать оптимальное решение для любого экстерьера, а угловые модели идеально повторяют геометрию нестандартных столбов.</p>
+        
+        <p>Если вы ищете надежную защиту и стильное оформление для столбов забора — наши колпаки станут идеальным выбором. Они сочетают в себе практичность, долговечность и эстетическую привлекательность, преображая внешний вид всего участка.</p>
+    </div>
+</div>
+
+        <!-- Модальное окно для полноразмерного изображения -->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">@Product.Name</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img id="modalImage" src="" class="img-fluid" alt="@Product.Name">
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,6 +166,42 @@
         if (Product == null)
         {
             Navigation.NavigateTo("/Catalog");
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("eval", @"
+                window.openImageModal = function(imageSrc) {
+                    const modal = new bootstrap.Modal(document.getElementById('imageModal'));
+                    document.getElementById('modalImage').src = imageSrc;
+                    modal.show();
+                };
+                
+                // Инициализация карусели
+                document.addEventListener('DOMContentLoaded', function() {
+                    const carousel = document.getElementById('productCarousel');
+                    if (carousel) {
+                        new bootstrap.Carousel(carousel, {
+                            interval: 5000,
+                            wrap: true,
+                            touch: true,
+                            keyboard: true
+                        });
+                        
+                        // Предотвращаем сдвиги страницы при переключении
+                        carousel.addEventListener('slide.bs.carousel', function() {
+                            document.body.style.overflow = 'hidden';
+                        });
+                        
+                        carousel.addEventListener('slid.bs.carousel', function() {
+                            document.body.style.overflow = '';
+                        });
+                    }
+                });
+            ");
         }
     }
 }

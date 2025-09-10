@@ -1901,7 +1901,6 @@ C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\scopedcss\L
 C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\scopedcss\Layout\Header.razor.rz.scp.css
 C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
-C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\scopedcss\Pages\Cart.razor.rz.scp.css
 C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\scopedcss\Pages\Catalog.razor.rz.scp.css
 C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\scopedcss\Pages\Contacts.razor.rz.scp.css
 C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\scopedcss\Pages\HomePage.razor.rz.scp.css
@@ -2125,8 +2124,8 @@ C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\refint\MyRo
 C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\MyRoof.WASM.pdb
 C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\ref\MyRoof.WASM.dll
 C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\scopedcss\Pages\ProductCard.razor.rz.scp.css
-C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\b4nb6ntl2h-ea0ra86cvu.gz
-C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\gcsuxmnwha-rf4d55eran.gz
-C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\50vb0dh862-178jp0b7rb.gz
-C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\kd78n844ym-7hynwtnt3b.gz
-C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\2f17lpcpxa-68zplvuy74.gz
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\b4nb6ntl2h-8pjwnlgdbm.gz
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\gcsuxmnwha-rixdp02i8p.gz
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\50vb0dh862-xjimz322k7.gz
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\kd78n844ym-quhunl1rr2.gz
+C:\Users\PC_Work\Desktop\NewRoof\MyRoof\MyRoof.WASM\obj\Debug\net8.0\compressed\2f17lpcpxa-b4ah61i0c8.gz

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyRoof.WASM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd8f03672521edef11b59387eb4faffedc03a88c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+447e8956863825894f1d1f89648625ef442ac6f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyRoof.WASM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyRoof.WASM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

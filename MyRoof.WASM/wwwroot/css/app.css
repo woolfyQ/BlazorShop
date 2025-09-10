@@ -1,11 +1,15 @@
 
+/* Локальный шрифт как резервный */
 @font-face {
-    font-family: 'roboto-regular';
-    src: url('fonts/roboto-regular.ttf') format('truetype');
+    font-family: 'Roboto-Local';
+    src: url('../Fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 html, body {
-    font-family: 'roboto-regular', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', 'Roboto-Local', Helvetica, Arial, sans-serif;
 }
 
 /*a, .btn-link {
