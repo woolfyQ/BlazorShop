@@ -1,0 +1,35 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy-to-github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+          
+      - name: Publish .NET Project
+        run: dotnet publish MyRoof.WASM/MyRoof.WASM.csproj -c Release --output publish --nologo
+        
+      - name: Fix base href
+        run: |
+          sed -i 's/<base href="\/" \/>/<base href="\/BlazorShop\/" \/>/g' publish/wwwroot/index.html
+          
+      - name: Disable Jekyll
+        run: touch publish/wwwroot/.nojekyll
+        
+      - name: Create 404 page
+        run: cp publish/wwwroot/index.html publish/wwwroot/404.html
+        
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: publish/wwwroot
