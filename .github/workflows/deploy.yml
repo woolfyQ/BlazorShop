@@ -21,7 +21,7 @@ jobs:
           
       - name: Publish .NET Project
         run: dotnet publish MyRoof.WASM/MyRoof.WASM.csproj -c Release --output publish --nologo
-      - name: index.html base tag
+
       - name: Fix base href
         run: |
           sed -i 's/<base href="\/" \/>/<base href="\/BlazorShop\/" \/>/g' publish/wwwroot/index.html
