@@ -14,7 +14,17 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="MyRoof.WASM.styles.css" rel="stylesheet" />
 </head>
-
+<script>
+    // Восстанавливаем сохраненный путь после загрузки приложения
+    (function() {
+        const redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        
+        if (redirect && redirect !== location.pathname) {
+            history.replaceState(null, null, redirect);
+        }
+    })();
+</script>
 <body>
     <div id="app">
         <svg class="loading-progress">
